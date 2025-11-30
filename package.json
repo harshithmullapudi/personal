@@ -1,0 +1,10 @@
+{
+  "name": "holo-content",
+  "private": true,
+  "scripts": {
+    "build": "npx -y @redplanethq/holo build"
+  },
+  "dependencies": {
+    "next": "15.0.0"
+  }
+}
