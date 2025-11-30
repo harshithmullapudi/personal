@@ -28,5 +28,6 @@
       ]
     }
   ],
-  "name": "My Holo Project"
+  "name": "My Holo Project",
+  "deployment": "netlify"
 }

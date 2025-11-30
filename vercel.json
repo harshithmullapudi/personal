@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "npx -y @redplanethq/holo build",
-  "outputDirectory": "dist"
+  "outputDirectory": ".main/apps/holo/.next",
+  "framework": "nextjs"
 }
