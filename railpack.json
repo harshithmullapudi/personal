@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "steps": {
+
+    "build": {
+
+      "commands": [ "npx -y @redplanethq/holo build" ]
+    }
+  },
+  "deploy": {
+    "startCommand": "cd .main/apps/holo && pnpm start"
+  }
+}
