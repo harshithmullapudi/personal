@@ -1,0 +1,32 @@
+{
+  "core": {
+    "url": "https://core.heysol.ai",
+    "labels": [
+      "cmi4x19q6000mni1mhjzon9tt"
+    ]
+  },
+  "providers": {
+    "name": "openai",
+    "model": "gpt-4.1-2025-04-14",
+    "baseUrl": "https://api.openai.com/v1"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction"
+      ]
+    },
+    {
+      "group": "Core",
+      "pages": [
+        "CORE cmiig3y8t00cnln1mpojyeb0a",
+        "CORE cmi9xjzbh002yq91m48s0gf86",
+        "CORE cmi4xz7h3003ncq0i0ff70jp0",
+        "CORE cmi4xz6o10039cq0iws7zrjgx",
+        "CORE cmi4xyz5r000fcq0i47kspko1"
+      ]
+    }
+  ],
+  "name": "My Holo Project"
+}
