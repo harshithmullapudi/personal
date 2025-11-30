@@ -1,7 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "npm run build",
-  "installCommand": "npm install -g pnpm@9.0.0",
   "outputDirectory": ".main/apps/holo/.next",
   "framework": "nextjs"
 }
