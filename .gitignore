@@ -11,3 +11,9 @@
 
 .dist/
 .env
+
+AGENTS.md
+
+.main
+.cursor
+.clinerules
