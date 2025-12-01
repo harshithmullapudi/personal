@@ -12,11 +12,6 @@
     "base": {
       "image": "docker.io/redplanethq/holo:latest"
     },
-    "inputs": [
-      {
-        "step": "build"
-      }
-    ],
     "startCommand": "ls && node --version && cd /app/apps/holo && node server.js"
   }
 }
