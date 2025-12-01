@@ -17,6 +17,6 @@
         "step": "build"
       }
     ],
-    "startCommand": "cp /app/* /apps/holo/* && cd /apps/holo && npm run start"
+    "startCommand": "cd /apps/holo && npm run start"
   }
 }
