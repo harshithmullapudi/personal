@@ -1,15 +1,12 @@
 {
   "$schema": "https://schema.railpack.com",
   "steps": {
-    "install": {
-      "commands": [ "npm install -g pnpm@9.0.0" ]
-    },
     "build": {
       "commands": [ "npx -y @redplanethq/holo build" ]
     }
   },
   "deploy": {
-    "inputs": [ { "step": "install" }, { "step": "build" } ],
+    "inputs": [ { "step": "build" } ],
     "startCommand": "cd .main/apps/holo && node --version &&  npm run start"
   }
 }
