@@ -9,6 +9,7 @@
     }
   },
   "deploy": {
+    "inputs": [ "build" ],
     "startCommand": "cd .main/apps/holo && pnpm start"
   }
 }
