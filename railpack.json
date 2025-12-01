@@ -9,7 +9,7 @@
     }
   },
   "deploy": {
-    "inputs": [ { "step": "build" } ],
+    "inputs": [ { "step": "install" }, { "step": "build" } ],
     "startCommand": "cd .main/apps/holo && pnpm start"
   }
 }

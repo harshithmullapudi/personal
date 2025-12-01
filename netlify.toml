@@ -1,6 +1,0 @@
-[build]
-  publish = "dist"
-  command = "npx -y @redplanethq/holo build"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
