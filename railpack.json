@@ -4,7 +4,7 @@
     "build": {
       "commands": [ "...", {
           "src": "*",
-          "dest": "*"
+          "dest": "/apps/holo/*"
         } ]
     }
   },
@@ -17,6 +17,7 @@
         "step": "build",
         "include": [ "." ]
       }
-    ]
+    ],
+    "startCommand": "cd /apps/holo && npm run start"
   }
 }
