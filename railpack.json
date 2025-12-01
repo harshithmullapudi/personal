@@ -1,17 +1,22 @@
 {
   "$schema": "https://schema.railpack.com",
-  "provider": "node",
-  "packages": {
-    "node": "22",
-    "pnpm": "9.0.0"
-  },
   "steps": {
     "build": {
-      "commands": [ "npx -y @redplanethq/holo build" ]
+      "commands": [ "...", {
+          "src": "*",
+          "dest": "*"
+        } ]
     }
   },
   "deploy": {
-    "inputs": [ { "step": "build" } ],
-    "startCommand": "cd .main/apps/holo && node --version &&  npm run start"
+    "base": {
+      "image": "docker.io/redplanethq/holo:latest"
+    },
+    "inputs": [
+      {
+        "step": "build",
+        "include": [ "." ]
+      }
+    ]
   }
 }
