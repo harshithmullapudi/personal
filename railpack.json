@@ -5,7 +5,6 @@
       "commands": [ "npm install -g pnpm@9.0.0" ]
     },
     "build": {
-      "inputs": [ { "step": "install" } ],
       "commands": [ "npx -y @redplanethq/holo build" ]
     }
   },
