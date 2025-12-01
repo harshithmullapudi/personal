@@ -5,11 +5,12 @@
       "commands": [ "npm install -g pnpm@9.0.0" ]
     },
     "build": {
+      "inputs": [ { "step": "install" } ],
       "commands": [ "npx -y @redplanethq/holo build" ]
     }
   },
   "deploy": {
-    "inputs": [ "build" ],
+    "inputs": [ { "step": "build" } ],
     "startCommand": "cd .main/apps/holo && pnpm start"
   }
 }
