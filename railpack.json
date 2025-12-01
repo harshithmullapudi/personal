@@ -17,6 +17,6 @@
         "step": "build"
       }
     ],
-    "startCommand": "cd /app/apps/holo && npm run start"
+    "startCommand": "ls && node --version && cd /app/apps/holo && node server.js"
   }
 }
