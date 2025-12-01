@@ -10,6 +10,6 @@
   },
   "deploy": {
     "inputs": [ { "step": "install" }, { "step": "build" } ],
-    "startCommand": "cd .main/apps/holo && pnpm start"
+    "startCommand": "cd .main/apps/holo && npm run start"
   }
 }
