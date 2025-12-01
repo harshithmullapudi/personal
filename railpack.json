@@ -14,8 +14,7 @@
     },
     "inputs": [
       {
-        "step": "build",
-        "include": [ "." ]
+        "step": "build"
       }
     ],
     "startCommand": "cd /apps/holo && npm run start"
